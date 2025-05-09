@@ -75,6 +75,13 @@ struct LoginView: View {
                     }
                     .padding(.horizontal)
                     
+                    NavigationLink("¿No tienes cuenta? Registrate aquí") {
+                        RegisterView()
+                    }
+                    .foregroundColor(.white)
+                    .underline()
+                    .padding(.top)
+                    
                     Spacer()
                 }
                 
